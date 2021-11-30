@@ -1,5 +1,7 @@
 # deno_eastasianwidth
 
+[![Deno CI](https://github.com/shinshin86/deno_eastasianwidth/actions/workflows/main.yml/badge.svg)](https://github.com/shinshin86/deno_eastasianwidth/actions/workflows/main.yml)
+
 Deno porting of [eastasianwidth](https://github.com/komagata/eastasianwidth)
 
 ## Usage
