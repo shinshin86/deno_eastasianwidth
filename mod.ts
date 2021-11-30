@@ -280,7 +280,7 @@ function stringToArray(str: string): Array<string> {
 
 export function length(str: string): number {
   const characters = stringToArray(str);
-  let len: number = 0;
+  let len = 0;
   for (let i = 0; i < characters.length; i++) {
     len = len + characterLength(characters[i]);
   }
