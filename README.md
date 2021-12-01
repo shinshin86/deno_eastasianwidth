@@ -35,3 +35,16 @@ console.log(length("￠￦｡ￜㄅ뀀¢⟭a⊙①بف")); // 19
 ```sh
 deno test --unstable
 ```
+
+## Thank you
+
+The implementation in this repository is a port of the implementation in
+[this repository (East Asian Width)](https://github.com/komagata/eastasianwidth)
+for Deno.
+
+## Licence
+
+[MIT](https://github.com/shinshin86/deno_eastasianwidth/blob/main/LICENSE)
+
+The Licence is MIT, according to
+[the license of the ported code](https://github.com/komagata/eastasianwidth/blob/master/package.json).
