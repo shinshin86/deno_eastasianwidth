@@ -7,7 +7,11 @@ Deno porting of [eastasianwidth](https://github.com/komagata/eastasianwidth)
 ## Usage
 
 ```typescript
-import { characterLength, eastAsianWidth, length } from "./mod.ts";
+import {
+  characterLength,
+  eastAsianWidth,
+  length,
+} from "https://deno.land/x/deno_eastasianwidth@v0.1.0/mod.ts";
 
 console.log(eastAsianWidth("￦")); // 'F'
 console.log(eastAsianWidth("｡")); // 'H'
