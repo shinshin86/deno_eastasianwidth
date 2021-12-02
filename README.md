@@ -11,7 +11,7 @@ import {
   characterLength,
   eastAsianWidth,
   length,
-} from "https://deno.land/x/deno_eastasianwidth@v0.1.0/mod.ts";
+} from "https://deno.land/x/deno_eastasianwidth@v0.1.1/mod.ts";
 
 console.log(eastAsianWidth("￦")); // 'F'
 console.log(eastAsianWidth("｡")); // 'H'
