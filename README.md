@@ -34,7 +34,11 @@ console.log(length("￠￦｡ￜㄅ뀀¢⟭a⊙①بف")); // 19
 
 ## Test
 
-`--unstable` option needs to be added.
+```sh
+deno test
+```
+
+If the version is older than 1.18, add `--unstable`.
 
 ```sh
 deno test --unstable
